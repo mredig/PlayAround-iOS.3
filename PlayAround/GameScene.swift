@@ -16,23 +16,23 @@ class GameScene: SKScene {
 		
 		self.backgroundColor = SKColor.init(red: 0.2, green: 0.0, blue: 0.2, alpha: 0.2)
 
-		let ninjaIdleAtlas = SKTextureAtlas(named: "NinjaIdle")// <------
+		let ninjaIdleAtlas = SKTextureAtlas(named: "NinjaIdle")
 		
-		var ninjaIdleArray = [SKTexture]()// <------
-		for textureName in ninjaIdleAtlas.textureNames {// <------
-			ninjaIdleArray.append(ninjaIdleAtlas.textureNamed(textureName))// <------
-		}// <------
+		var ninjaIdleArray = [SKTexture]()
+		for textureName in ninjaIdleAtlas.textureNames {
+			ninjaIdleArray.append(ninjaIdleAtlas.textureNamed(textureName))
+		}
 		
-		ninjaIdleAction = SKAction.animateWithTextures(ninjaIdleArray, timePerFrame: 1.0/12.0)// <------
-		ninjaIdleAction = SKAction.repeatActionForever(ninjaIdleAction)// <------
+		ninjaIdleAction = SKAction.animateWithTextures(ninjaIdleArray, timePerFrame: 1.0/12.0)
+		ninjaIdleAction = SKAction.repeatActionForever(ninjaIdleAction)
 		
 		
 		let ninja = SKSpriteNode(imageNamed: "Idle_000")
-//		ninja.setScale(0.25)
+		ninja.setScale(0.25)
 		
 		ninja.name = "theNinja"
 		
-		ninja.runAction(ninjaIdleAction)// <------
+		ninja.runAction(ninjaIdleAction)
 		self.addChild(ninja)
 		
 		
@@ -44,8 +44,8 @@ class GameScene: SKScene {
         
         let location = theEvent.locationInNode(self)
 		
-		let ninja = self.childNodeWithName("theNinja") // <----
-		ninja?.position = location // <-----
+		let ninja = self.childNodeWithName("theNinja")
+		ninja?.position = location
 		
 	
 	}
@@ -63,7 +63,12 @@ class GameScene: SKScene {
 			let location = touch.locationInNode(self)
 
 			let ninja = self.childNodeWithName("theNinja") // <----
-			ninja?.position = location // <-----
+			
+			let walkAction = SKAction.moveTo(location, duration: 1.5)
+			
+			ninja!.runAction(walkAction)
+			
+			
 		}
 
 	
@@ -75,7 +80,6 @@ class GameScene: SKScene {
 			let location = touch.locationInNode(self)
 			
 			let ninja = self.childNodeWithName("theNinja") // <----
-			ninja?.position = location // <-----
 		}
 		
 		
