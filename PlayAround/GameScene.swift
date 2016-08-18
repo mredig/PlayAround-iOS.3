@@ -37,7 +37,8 @@ class GameScene: SKScene {
 		
 		
     }
-    
+	
+#if os(OSX)
     override func mouseDown(theEvent: NSEvent) {
         /* Called when a mouse click occurs */
         
@@ -55,6 +56,36 @@ class GameScene: SKScene {
 		let ninja = self.childNodeWithName("theNinja") // <----
 		ninja?.position = location // <-----
 	}
+#elseif os(iOS)
+	override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+		
+		for touch in touches {
+			let location = touch.locationInNode(self)
+
+			let ninja = self.childNodeWithName("theNinja") // <----
+			ninja?.position = location // <-----
+		}
+
+	
+	}
+	
+	override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+		
+		for touch in touches {
+			let location = touch.locationInNode(self)
+			
+			let ninja = self.childNodeWithName("theNinja") // <----
+			ninja?.position = location // <-----
+		}
+		
+		
+	}
+	
+
+#endif
+
+	
+	
 	
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */

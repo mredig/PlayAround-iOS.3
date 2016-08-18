@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>NinjaAttack.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>PlayAround.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>801151011D66637000B0C7C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>801151181D66637000B0C7C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>801151231D66637000B0C7C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>80597E741D63C6F1005CFE77</key>
 		<dict>
 			<key>primary</key>

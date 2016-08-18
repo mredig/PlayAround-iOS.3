@@ -7,66 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801151051D66637000B0C7C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801151041D66637000B0C7C8 /* AppDelegate.swift */; };
+		801151071D66637000B0C7C8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 801151061D66637000B0C7C8 /* GameScene.sks */; };
+		8011510B1D66637000B0C7C8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8011510A1D66637000B0C7C8 /* GameViewController.swift */; };
+		8011510E1D66637000B0C7C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8011510C1D66637000B0C7C8 /* Main.storyboard */; };
+		801151101D66637000B0C7C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8011510F1D66637000B0C7C8 /* Assets.xcassets */; };
+		801151131D66637000B0C7C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801151111D66637000B0C7C8 /* LaunchScreen.storyboard */; };
+		801151341D6663E900B0C7C8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80597E7A1D63C6F1005CFE77 /* GameScene.swift */; };
+		801151351D6663ED00B0C7C8 /* NinjaIdle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8012A1541D651C7C00D386A0 /* NinjaIdle.atlas */; };
 		8012A1551D651C7C00D386A0 /* NinjaIdle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8012A1541D651C7C00D386A0 /* NinjaIdle.atlas */; };
 		80597E791D63C6F1005CFE77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80597E781D63C6F1005CFE77 /* AppDelegate.swift */; };
 		80597E7B1D63C6F1005CFE77 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80597E7A1D63C6F1005CFE77 /* GameScene.swift */; };
 		80597E7D1D63C6F1005CFE77 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80597E7C1D63C6F1005CFE77 /* GameScene.sks */; };
 		80597E7F1D63C6F1005CFE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80597E7E1D63C6F1005CFE77 /* Assets.xcassets */; };
 		80597E821D63C6F1005CFE77 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80597E801D63C6F1005CFE77 /* MainMenu.xib */; };
-		80597E8D1D63C6F1005CFE77 /* PlayAroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80597E8C1D63C6F1005CFE77 /* PlayAroundTests.swift */; };
-		80597E981D63C6F1005CFE77 /* PlayAroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80597E971D63C6F1005CFE77 /* PlayAroundUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		80597E891D63C6F1005CFE77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80597E6D1D63C6F1005CFE77 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80597E741D63C6F1005CFE77;
-			remoteInfo = PlayAround;
-		};
-		80597E941D63C6F1005CFE77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80597E6D1D63C6F1005CFE77 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80597E741D63C6F1005CFE77;
-			remoteInfo = PlayAround;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		8012A1541D651C7C00D386A0 /* NinjaIdle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = NinjaIdle.atlas; sourceTree = "<group>"; };
+		801151021D66637000B0C7C8 /* NinjaAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		801151041D66637000B0C7C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		801151061D66637000B0C7C8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8011510A1D66637000B0C7C8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8011510D1D66637000B0C7C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8011510F1D66637000B0C7C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		801151121D66637000B0C7C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		801151141D66637000B0C7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8011511D1D66637000B0C7C8 /* NinjaAttackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaAttackTests.swift; sourceTree = "<group>"; };
+		8011511F1D66637000B0C7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801151281D66637000B0C7C8 /* NinjaAttackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaAttackUITests.swift; sourceTree = "<group>"; };
+		8011512A1D66637000B0C7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8012A1541D651C7C00D386A0 /* NinjaIdle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = NinjaIdle.atlas; path = PlayAround/NinjaIdle.atlas; sourceTree = "<group>"; };
 		80597E751D63C6F1005CFE77 /* PlayAround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayAround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80597E781D63C6F1005CFE77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80597E7A1D63C6F1005CFE77 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		80597E7A1D63C6F1005CFE77 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = PlayAround/GameScene.swift; sourceTree = "<group>"; };
 		80597E7C1D63C6F1005CFE77 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		80597E7E1D63C6F1005CFE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80597E811D63C6F1005CFE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		80597E831D63C6F1005CFE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80597E881D63C6F1005CFE77 /* PlayAroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayAroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80597E8C1D63C6F1005CFE77 /* PlayAroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAroundTests.swift; sourceTree = "<group>"; };
 		80597E8E1D63C6F1005CFE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80597E931D63C6F1005CFE77 /* PlayAroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayAroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80597E971D63C6F1005CFE77 /* PlayAroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAroundUITests.swift; sourceTree = "<group>"; };
 		80597E991D63C6F1005CFE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		801150FF1D66637000B0C7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80597E721D63C6F1005CFE77 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80597E851D63C6F1005CFE77 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80597E901D63C6F1005CFE77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,12 +68,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		801151031D66637000B0C7C8 /* NinjaAttack */ = {
+			isa = PBXGroup;
+			children = (
+				801151041D66637000B0C7C8 /* AppDelegate.swift */,
+				801151061D66637000B0C7C8 /* GameScene.sks */,
+				8011510A1D66637000B0C7C8 /* GameViewController.swift */,
+				8011510C1D66637000B0C7C8 /* Main.storyboard */,
+				8011510F1D66637000B0C7C8 /* Assets.xcassets */,
+				801151111D66637000B0C7C8 /* LaunchScreen.storyboard */,
+				801151141D66637000B0C7C8 /* Info.plist */,
+			);
+			path = NinjaAttack;
+			sourceTree = "<group>";
+		};
+		8011511C1D66637000B0C7C8 /* NinjaAttackTests */ = {
+			isa = PBXGroup;
+			children = (
+				8011511D1D66637000B0C7C8 /* NinjaAttackTests.swift */,
+				8011511F1D66637000B0C7C8 /* Info.plist */,
+			);
+			path = NinjaAttackTests;
+			sourceTree = "<group>";
+		};
+		801151271D66637000B0C7C8 /* NinjaAttackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				801151281D66637000B0C7C8 /* NinjaAttackUITests.swift */,
+				8011512A1D66637000B0C7C8 /* Info.plist */,
+			);
+			path = NinjaAttackUITests;
+			sourceTree = "<group>";
+		};
+		801151361D666B5500B0C7C8 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				8012A1541D651C7C00D386A0 /* NinjaIdle.atlas */,
+				80597E7A1D63C6F1005CFE77 /* GameScene.swift */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
 		80597E6C1D63C6F1005CFE77 = {
 			isa = PBXGroup;
 			children = (
-				80597E771D63C6F1005CFE77 /* PlayAround */,
+				801151361D666B5500B0C7C8 /* Game */,
+				80597E771D63C6F1005CFE77 /* PlayAround (Mac) */,
 				80597E8B1D63C6F1005CFE77 /* PlayAroundTests */,
 				80597E961D63C6F1005CFE77 /* PlayAroundUITests */,
+				801151031D66637000B0C7C8 /* NinjaAttack */,
+				8011511C1D66637000B0C7C8 /* NinjaAttackTests */,
+				801151271D66637000B0C7C8 /* NinjaAttackUITests */,
 				80597E761D63C6F1005CFE77 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,23 +127,21 @@
 			isa = PBXGroup;
 			children = (
 				80597E751D63C6F1005CFE77 /* PlayAround.app */,
-				80597E881D63C6F1005CFE77 /* PlayAroundTests.xctest */,
-				80597E931D63C6F1005CFE77 /* PlayAroundUITests.xctest */,
+				801151021D66637000B0C7C8 /* NinjaAttack.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80597E771D63C6F1005CFE77 /* PlayAround */ = {
+		80597E771D63C6F1005CFE77 /* PlayAround (Mac) */ = {
 			isa = PBXGroup;
 			children = (
 				80597E781D63C6F1005CFE77 /* AppDelegate.swift */,
-				80597E7A1D63C6F1005CFE77 /* GameScene.swift */,
-				8012A1541D651C7C00D386A0 /* NinjaIdle.atlas */,
 				80597E7C1D63C6F1005CFE77 /* GameScene.sks */,
 				80597E7E1D63C6F1005CFE77 /* Assets.xcassets */,
 				80597E801D63C6F1005CFE77 /* MainMenu.xib */,
 				80597E831D63C6F1005CFE77 /* Info.plist */,
 			);
+			name = "PlayAround (Mac)";
 			path = PlayAround;
 			sourceTree = "<group>";
 		};
@@ -131,6 +166,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		801151011D66637000B0C7C8 /* NinjaAttack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8011512B1D66637000B0C7C8 /* Build configuration list for PBXNativeTarget "NinjaAttack" */;
+			buildPhases = (
+				801150FE1D66637000B0C7C8 /* Sources */,
+				801150FF1D66637000B0C7C8 /* Frameworks */,
+				801151001D66637000B0C7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NinjaAttack;
+			productName = NinjaAttack;
+			productReference = 801151021D66637000B0C7C8 /* NinjaAttack.app */;
+			productType = "com.apple.product-type.application";
+		};
 		80597E741D63C6F1005CFE77 /* PlayAround */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80597E9C1D63C6F1005CFE77 /* Build configuration list for PBXNativeTarget "PlayAround" */;
@@ -148,42 +200,6 @@
 			productReference = 80597E751D63C6F1005CFE77 /* PlayAround.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80597E871D63C6F1005CFE77 /* PlayAroundTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80597E9F1D63C6F1005CFE77 /* Build configuration list for PBXNativeTarget "PlayAroundTests" */;
-			buildPhases = (
-				80597E841D63C6F1005CFE77 /* Sources */,
-				80597E851D63C6F1005CFE77 /* Frameworks */,
-				80597E861D63C6F1005CFE77 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80597E8A1D63C6F1005CFE77 /* PBXTargetDependency */,
-			);
-			name = PlayAroundTests;
-			productName = PlayAroundTests;
-			productReference = 80597E881D63C6F1005CFE77 /* PlayAroundTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		80597E921D63C6F1005CFE77 /* PlayAroundUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80597EA21D63C6F1005CFE77 /* Build configuration list for PBXNativeTarget "PlayAroundUITests" */;
-			buildPhases = (
-				80597E8F1D63C6F1005CFE77 /* Sources */,
-				80597E901D63C6F1005CFE77 /* Frameworks */,
-				80597E911D63C6F1005CFE77 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80597E951D63C6F1005CFE77 /* PBXTargetDependency */,
-			);
-			name = PlayAroundUITests;
-			productName = PlayAroundUITests;
-			productReference = 80597E931D63C6F1005CFE77 /* PlayAroundUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,16 +210,11 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Michael Redig";
 				TargetAttributes = {
+					801151011D66637000B0C7C8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					80597E741D63C6F1005CFE77 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					80597E871D63C6F1005CFE77 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 80597E741D63C6F1005CFE77;
-					};
-					80597E921D63C6F1005CFE77 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 80597E741D63C6F1005CFE77;
 					};
 				};
 			};
@@ -221,13 +232,24 @@
 			projectRoot = "";
 			targets = (
 				80597E741D63C6F1005CFE77 /* PlayAround */,
-				80597E871D63C6F1005CFE77 /* PlayAroundTests */,
-				80597E921D63C6F1005CFE77 /* PlayAroundUITests */,
+				801151011D66637000B0C7C8 /* NinjaAttack */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		801151001D66637000B0C7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801151071D66637000B0C7C8 /* GameScene.sks in Resources */,
+				801151351D6663ED00B0C7C8 /* NinjaIdle.atlas in Resources */,
+				801151131D66637000B0C7C8 /* LaunchScreen.storyboard in Resources */,
+				801151101D66637000B0C7C8 /* Assets.xcassets in Resources */,
+				8011510E1D66637000B0C7C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80597E731D63C6F1005CFE77 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,23 +261,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80597E861D63C6F1005CFE77 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80597E911D63C6F1005CFE77 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		801150FE1D66637000B0C7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801151341D6663E900B0C7C8 /* GameScene.swift in Sources */,
+				8011510B1D66637000B0C7C8 /* GameViewController.swift in Sources */,
+				801151051D66637000B0C7C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80597E711D63C6F1005CFE77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,38 +283,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80597E841D63C6F1005CFE77 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80597E8D1D63C6F1005CFE77 /* PlayAroundTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80597E8F1D63C6F1005CFE77 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80597E981D63C6F1005CFE77 /* PlayAroundUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		80597E8A1D63C6F1005CFE77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80597E741D63C6F1005CFE77 /* PlayAround */;
-			targetProxy = 80597E891D63C6F1005CFE77 /* PBXContainerItemProxy */;
-		};
-		80597E951D63C6F1005CFE77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80597E741D63C6F1005CFE77 /* PlayAround */;
-			targetProxy = 80597E941D63C6F1005CFE77 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		8011510C1D66637000B0C7C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8011510D1D66637000B0C7C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		801151111D66637000B0C7C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801151121D66637000B0C7C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		80597E801D63C6F1005CFE77 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -308,6 +313,37 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8011512C1D66637000B0C7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NinjaAttack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelredig.NinjaAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8011512D1D66637000B0C7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NinjaAttack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelredig.NinjaAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		80597E9A1D63C6F1005CFE77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -414,61 +450,17 @@
 			};
 			name = Release;
 		};
-		80597EA01D63C6F1005CFE77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = PlayAroundTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.michaelredig.PlayAroundTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayAround.app/Contents/MacOS/PlayAround";
-			};
-			name = Debug;
-		};
-		80597EA11D63C6F1005CFE77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = PlayAroundTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.michaelredig.PlayAroundTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayAround.app/Contents/MacOS/PlayAround";
-			};
-			name = Release;
-		};
-		80597EA31D63C6F1005CFE77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = PlayAroundUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.michaelredig.PlayAroundUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PlayAround;
-			};
-			name = Debug;
-		};
-		80597EA41D63C6F1005CFE77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = PlayAroundUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.michaelredig.PlayAroundUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PlayAround;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8011512B1D66637000B0C7C8 /* Build configuration list for PBXNativeTarget "NinjaAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8011512C1D66637000B0C7C8 /* Debug */,
+				8011512D1D66637000B0C7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		80597E701D63C6F1005CFE77 /* Build configuration list for PBXProject "PlayAround" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -483,24 +475,6 @@
 			buildConfigurations = (
 				80597E9D1D63C6F1005CFE77 /* Debug */,
 				80597E9E1D63C6F1005CFE77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80597E9F1D63C6F1005CFE77 /* Build configuration list for PBXNativeTarget "PlayAroundTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80597EA01D63C6F1005CFE77 /* Debug */,
-				80597EA11D63C6F1005CFE77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80597EA21D63C6F1005CFE77 /* Build configuration list for PBXNativeTarget "PlayAroundUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80597EA31D63C6F1005CFE77 /* Debug */,
-				80597EA41D63C6F1005CFE77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
