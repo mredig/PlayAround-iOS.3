@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8012A1551D651C7C00D386A0 /* NinjaIdle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8012A1541D651C7C00D386A0 /* NinjaIdle.atlas */; };
 		80597E791D63C6F1005CFE77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80597E781D63C6F1005CFE77 /* AppDelegate.swift */; };
 		80597E7B1D63C6F1005CFE77 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80597E7A1D63C6F1005CFE77 /* GameScene.swift */; };
 		80597E7D1D63C6F1005CFE77 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80597E7C1D63C6F1005CFE77 /* GameScene.sks */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8012A1541D651C7C00D386A0 /* NinjaIdle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = NinjaIdle.atlas; sourceTree = "<group>"; };
 		80597E751D63C6F1005CFE77 /* PlayAround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayAround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80597E781D63C6F1005CFE77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80597E7A1D63C6F1005CFE77 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				80597E781D63C6F1005CFE77 /* AppDelegate.swift */,
 				80597E7A1D63C6F1005CFE77 /* GameScene.swift */,
+				8012A1541D651C7C00D386A0 /* NinjaIdle.atlas */,
 				80597E7C1D63C6F1005CFE77 /* GameScene.sks */,
 				80597E7E1D63C6F1005CFE77 /* Assets.xcassets */,
 				80597E801D63C6F1005CFE77 /* MainMenu.xib */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8012A1551D651C7C00D386A0 /* NinjaIdle.atlas in Resources */,
 				80597E7F1D63C6F1005CFE77 /* Assets.xcassets in Resources */,
 				80597E7D1D63C6F1005CFE77 /* GameScene.sks in Resources */,
 				80597E821D63C6F1005CFE77 /* MainMenu.xib in Resources */,
@@ -481,6 +485,7 @@
 				80597E9E1D63C6F1005CFE77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80597E9F1D63C6F1005CFE77 /* Build configuration list for PBXNativeTarget "PlayAroundTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				80597EA11D63C6F1005CFE77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80597EA21D63C6F1005CFE77 /* Build configuration list for PBXNativeTarget "PlayAroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				80597EA41D63C6F1005CFE77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
