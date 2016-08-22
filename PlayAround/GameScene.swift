@@ -66,9 +66,15 @@ class GameScene: SKUScene {
 	
 	
 	func randomizeOgrePosition() {
+		
+		let inset = CGFloat(50)
+		let halfInset = inset / 2.0
 		let ogre = self.childNodeWithName("Ralph The Ogre")
-		let ogrex = CGFloat ( arc4random_uniform(UInt32 (self.frame.size.width)))
-		let ogrey = CGFloat ( arc4random_uniform(UInt32 (self.frame.size.height)))
+		var ogrex = CGFloat ( arc4random_uniform(UInt32 (self.frame.size.width - inset)))
+		var ogrey = CGFloat ( arc4random_uniform(UInt32 (self.frame.size.height - inset)))
+		ogrex += halfInset
+		ogrey += halfInset
+		print("width:", self.frame.size.width, "Height: ", self.frame.size.height)
 		ogre!.position = CGPoint(x: ogrex, y: ogrey)
 	}
 
