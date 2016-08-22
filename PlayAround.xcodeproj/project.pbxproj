@@ -25,6 +25,10 @@
 		80597E821D63C6F1005CFE77 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80597E801D63C6F1005CFE77 /* MainMenu.xib */; };
 		80D067D61D67C3710032843B /* OgreWalk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 80D067D51D67C3710032843B /* OgreWalk.atlas */; };
 		80D067D71D67C3710032843B /* OgreWalk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 80D067D51D67C3710032843B /* OgreWalk.atlas */; };
+		80D067DF1D696D8C0032843B /* SKUtilities2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D067DC1D696D8C0032843B /* SKUtilities2.xcassets */; };
+		80D067E01D696D8C0032843B /* SKUtilities2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D067DC1D696D8C0032843B /* SKUtilities2.xcassets */; };
+		80D067E41D6AC2D00032843B /* SKUtilities2.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D067E31D6AC2D00032843B /* SKUtilities2.m */; };
+		80D067E51D6AC2D00032843B /* SKUtilities2.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D067E31D6AC2D00032843B /* SKUtilities2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,11 @@
 		80597E971D63C6F1005CFE77 /* PlayAroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAroundUITests.swift; sourceTree = "<group>"; };
 		80597E991D63C6F1005CFE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80D067D51D67C3710032843B /* OgreWalk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = OgreWalk.atlas; sourceTree = "<group>"; };
+		80D067D81D696D8B0032843B /* PlayAround-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayAround-Bridging-Header.h"; sourceTree = "<group>"; };
+		80D067D91D696D8B0032843B /* NinjaAttack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NinjaAttack-Bridging-Header.h"; sourceTree = "<group>"; };
+		80D067DC1D696D8C0032843B /* SKUtilities2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = SKUtilities2.xcassets; path = SKUtilities/SKUtilities2.xcassets; sourceTree = "<group>"; };
+		80D067E21D6AC2D00032843B /* SKUtilities2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKUtilities2.h; path = SKUtilities/SKUtilities2.h; sourceTree = "<group>"; };
+		80D067E31D6AC2D00032843B /* SKUtilities2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKUtilities2.m; path = SKUtilities/SKUtilities2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +122,7 @@
 				801151371D667BAD00B0C7C8 /* NinjaWalk.atlas */,
 				8012A1541D651C7C00D386A0 /* NinjaIdle.atlas */,
 				80597E7A1D63C6F1005CFE77 /* GameScene.swift */,
+				80D067E11D696E290032843B /* SKUtilites */,
 			);
 			name = Game;
 			sourceTree = "<group>";
@@ -169,6 +179,18 @@
 				80597E991D63C6F1005CFE77 /* Info.plist */,
 			);
 			path = PlayAroundUITests;
+			sourceTree = "<group>";
+		};
+		80D067E11D696E290032843B /* SKUtilites */ = {
+			isa = PBXGroup;
+			children = (
+				80D067E21D6AC2D00032843B /* SKUtilities2.h */,
+				80D067E31D6AC2D00032843B /* SKUtilities2.m */,
+				80D067DC1D696D8C0032843B /* SKUtilities2.xcassets */,
+				80D067D81D696D8B0032843B /* PlayAround-Bridging-Header.h */,
+				80D067D91D696D8B0032843B /* NinjaAttack-Bridging-Header.h */,
+			);
+			name = SKUtilites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +278,7 @@
 				801151131D66637000B0C7C8 /* LaunchScreen.storyboard in Resources */,
 				801151391D667BAD00B0C7C8 /* NinjaWalk.atlas in Resources */,
 				80D067D71D67C3710032843B /* OgreWalk.atlas in Resources */,
+				80D067E01D696D8C0032843B /* SKUtilities2.xcassets in Resources */,
 				801151101D66637000B0C7C8 /* Assets.xcassets in Resources */,
 				8011510E1D66637000B0C7C8 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +293,7 @@
 				80597E7F1D63C6F1005CFE77 /* Assets.xcassets in Resources */,
 				80D067D61D67C3710032843B /* OgreWalk.atlas in Resources */,
 				80597E7D1D63C6F1005CFE77 /* GameScene.sks in Resources */,
+				80D067DF1D696D8C0032843B /* SKUtilities2.xcassets in Resources */,
 				80597E821D63C6F1005CFE77 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				801151341D6663E900B0C7C8 /* GameScene.swift in Sources */,
+				80D067E51D6AC2D00032843B /* SKUtilities2.m in Sources */,
 				8011510B1D66637000B0C7C8 /* GameViewController.swift in Sources */,
 				801151051D66637000B0C7C8 /* AppDelegate.swift in Sources */,
 			);
@@ -291,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D067E41D6AC2D00032843B /* SKUtilities2.m in Sources */,
 				80597E7B1D63C6F1005CFE77 /* GameScene.swift in Sources */,
 				80597E791D63C6F1005CFE77 /* AppDelegate.swift in Sources */,
 			);
@@ -329,16 +355,22 @@
 		8011512C1D66637000B0C7C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/**";
 				INFOPLIST_FILE = NinjaAttack/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "${PROJECT_DIR}/**";
 				PRODUCT_BUNDLE_IDENTIFIER = com.michaelredig.NinjaAttack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "NinjaAttack-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -346,16 +378,21 @@
 		8011512D1D66637000B0C7C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/**";
 				INFOPLIST_FILE = NinjaAttack/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "${PROJECT_DIR}/**";
 				PRODUCT_BUNDLE_IDENTIFIER = com.michaelredig.NinjaAttack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "NinjaAttack-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -447,11 +484,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/**";
 				INFOPLIST_FILE = PlayAround/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "${PROJECT_DIR}/**";
 				PRODUCT_BUNDLE_IDENTIFIER = com.michaelredig.PlayAround;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayAround-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/**";
 			};
 			name = Debug;
 		};
@@ -459,11 +502,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/**";
 				INFOPLIST_FILE = PlayAround/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "${PROJECT_DIR}/**";
 				PRODUCT_BUNDLE_IDENTIFIER = com.michaelredig.PlayAround;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayAround-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/**";
 			};
 			name = Release;
 		};
